@@ -1,11 +1,3 @@
-.carousel {
-  width: 640px;
-  height: 360px;
-  margin: auto;
-}
-.carousel-inner img {
-  margin: auto;
-}
 h1 {
-  margin: auto;
+  text-align: center;
 }
