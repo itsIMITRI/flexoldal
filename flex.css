@@ -1,3 +1,18 @@
+.carousel {
+  margin: auto;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-item img {
+  margin: auto;
+}
 h1 {
   text-align: center;
+}
+h5 {
+  text-align: center;
+}
+p {
+  margin: auto;
 }
