@@ -36,9 +36,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="vasarlas.html"
-                >Vásárlás/Kölcsönzés</a
-              >
+              <a class="nav-link active" href="vasarlas.html">Vásárlás</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
@@ -56,27 +54,38 @@
     <table class="table table-striped table-dark">
       <thead>
         <tr>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
+          <th scope="col">Márka és típus</th>
+          <th scope="col">Ár(CW pontok)</th>
+          <th scope="col">Készleten(Darab szám)</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <td>Ranger sakorcsiszoló fém korongal</td>
+          <td>14900 CW-pont</td>
+          <td>5 darab</td>
+        </tr>
+          <td>Original Flex 2020 fém korongal</td>
+          <td>14000 CW-pont</td>
+          <td>7 darab</td>
         </tr>
         <tr>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <td>BOSCH 2021 sarokcsiszoló fa megmunkáláshoz</td>
+          <td>18900 CW-pont</td>
+          <td>3 darab</td>
         </tr>
         <tr>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+        <tr>
+          <td>Vasy Flex 7000 fa megmunkáláshoz(LIMITED EDITION)</td>
+          <td>59900 CW-pont</td>
+          <td>1 darab</td>
         </tr>
+        <tr>
+          <td>Imi>Vasi Flex2021(LIMITED EDITION)</td>
+          <td>99900 CW-pont</td>
+          <td>Nincs készleten</td>
+        </tr>
+        <tr>
       </tbody>
     </table>
 
@@ -99,47 +108,51 @@
             />
           </div>
           <div class="form-group col-md-10">
-            <label for="inputPassword4">Password</label>
+            <label for="inputPassword4">Név</label>
             <input
-              type="password"
+              type="name"
               class="form-control"
               id="inputPassword4"
-              placeholder="Password"
+              placeholder="Név"
             />
           </div>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Address</label>
+        <div class="form-group col-md-10">
+          <label for="inputAddress">Cím</label>
           <input
             type="text"
             class="form-control"
             id="inputAddress"
-            placeholder="1234 Main St"
+            placeholder="1234 Valami utca"
           />
         </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
+        <div class="form-group col-md-10">
+          <label for="inputAddress2">Telefonszám</label>
           <input
             type="text"
             class="form-control"
             id="inputAddress2"
-            placeholder="Apartment, studio, or floor"
+            placeholder="06306969696"
           />
         </div>
         <div class="form-row">
           <div class="form-group col-md-10">
-            <label for="inputCity">City</label>
+            <label for="inputCity">Város</label>
             <input type="text" class="form-control" id="inputCity" />
           </div>
-          <div class="form-group col-md-8">
-            <label for="inputState">State</label>
+          <div class="form-group col-md-10">
+            <label for="inputState">Termék</label>
             <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
+              <option selected>Nincs kiválasztva</option>
+              <option>Ranger sakorcsiszoló fém korongal</option>
+              <option>Original Flex 2020 fém korongal</option>
+              <option>BOSCH 2021 sarokcsiszoló fa megmunkáláshoz</option>
+              <option>Vasy Flex 7000 fa megmunkáláshoz(LIMITED EDITION)</option>
+              <option>Imi>Vasi Flex2021(LIMITED EDITION)</option>
             </select>
           </div>
           <div class="form-group col-md-4">
-            <label for="inputZip">Zip</label>
+            <label for="inputZip">Irányítószám</label>
             <input type="text" class="form-control" id="inputZip" />
           </div>
         </div>
@@ -147,11 +160,11 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck" />
             <label class="form-check-label" for="gridCheck">
-              Check me out
+              Nem flexelek CodeWars pontokkal
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">Rendelés</button>
       </form>
     </div>
 
