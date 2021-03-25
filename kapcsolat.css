@@ -1,3 +1,18 @@
 section {
   margin-top: 50px;
 }
+
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  margin: auto;
+}

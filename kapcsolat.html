@@ -49,6 +49,12 @@
     <br />
     <br />
     <br />
+    <h3>Kérdése van?</h3>
+    <p class="font-monospace text-center">
+      Ha kérdése van, akkor töltse ki az alábbi mezőket és küldje el nekünk és
+      szakképzett kollegáink(Vasi) rövid időn belül meg is válaszolják a
+      kérdését. Az átlagos válaszadási idő 1-2 munkanapot is igénybe vehet.
+    </p>
 
     <div class="d-flex justify-content-center">
       <form>
@@ -67,21 +73,43 @@
             type="email"
             class="form-control"
             id="exampleFormControlInput1"
-            placeholder="Adja meg az email címét!"
+            placeholder="Adja meg email címét!"
           />
         </div>
       </form>
     </div>
-    <div class="form-floating">
+    <br />
+    <br />
+    <div class="d-flex justify-content-center">
       <textarea
         class="form-control"
-        placeholder="Leave a comment here"
+        placeholder="Gépelje be az üzenetét..."
         id="floatingTextarea2"
         style="height: 100px"
       ></textarea>
-      <label for="floatingTextarea2">Üzenet </label>
     </div>
-
+    <br />
+    <br />
+    <form class="d-flex justify-content-center">
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1"
+          >Megvan CodeWarson a 10000 pontom</label
+        >
+      </div>
+    </form>
+    <div class="d-flex justify-content-center">
+      <button onclick="myFunction()" type="submit" class="btn btn-success">
+        Flex 💪💪💪
+      </button>
+    </div>
+    <br />
+    <br />
+    <script>
+      function myFunction() {
+        alert('Sikeres küldés!');
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
